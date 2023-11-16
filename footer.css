@@ -1,0 +1,73 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.flexer {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.boxx {
+    /* border: 2px solid black; */
+    width: 250px;
+    height: 280px;
+    margin: 20px;
+    padding-left: 20px;
+    justify-content: left;
+    line-height: 26px;
+}
+
+.headin {
+    display: flex;
+    justify-content: left;
+}
+
+.headin li {
+    list-style: none;
+    /* border: 2px solid green; */
+
+}
+a {
+    text-decoration: none;
+    
+    /* border: 2px solid grey; */
+}
+
+#dabba {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 60px;
+}
+
+footer {
+    background-image: url(/abc.jpg);
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    color: white;
+    border-top-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+
+}
+
+.kid {
+    display: flex;
+    flex-direction: row;                  
+    flex-wrap: wrap;
+    
+}
+
+.ykid {
+    width: 65px;
+    padding: 10px 0px;           
+    margin: 15px ;      
+}
+
+.copyright{
+
+    text-align: center;
+}
